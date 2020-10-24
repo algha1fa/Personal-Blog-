@@ -1,0 +1,11 @@
+@import url("blog.css");
+@import url("blog2.css");
+@import url("internal.css");
+
+body {
+	background: #ffffff;
+}
+
+.flex-container{
+	display: block;
+}

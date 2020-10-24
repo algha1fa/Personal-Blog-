@@ -1,0 +1,74 @@
+/* Card design */
+
+    * {
+  box-sizing: border-box;
+}
+
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+
+/* .row {margin: 0 -5px;} */
+
+.grid-container{
+    width: 100%;
+    padding: 20px 0 20px 0;
+    display: grid;
+    position: relative;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  background-color: #f1f1f1;
+}
+
+.avstyle{
+    height: 100px;
+    display: block;
+    position: relative;
+}
+.btn_style{
+    background-color: #890c96;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    display: block;
+    border-radius: 4px;
+}
+
+
+footer{
+    padding: 10px;
+    width: 100%;
+    background-color: #000000;
+    height: 60px;
+    display: block;
+}
+
+.ftr_style{
+    text-align: center;
+    color: #fff;
+}
+
+ /* // card design */
